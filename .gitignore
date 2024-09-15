@@ -1,0 +1,39 @@
+.env
+
+# Ignore composer dependencies
+src/vendor/
+#src/storage/
+# Ignore node dependencies (if applicable)
+node_modules/
+
+# Ignore IDE and system files
+.idea/
+*.iml
+*.swp
+*.swo
+*.DS_Store
+*.log
+
+# Ignore PHPStorm config
+/.idea/
+/nbproject/
+/.vscode/
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
+
+# Ignore compiled files
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Ignore PHPUnit results
+phpunit.xml
+phpunit-result.cache
+
+# Ignore any custom build folders
+/build/
