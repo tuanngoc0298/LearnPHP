@@ -47,7 +47,7 @@ class Router
 
         if (is_array($action)) {
             [$class, $method] = $action;
-            if (class_exists('App\Controller\Home')) {
+            if (class_exists('App\Controller\HomeController')) {
                 $class = new $class();
 
                 if (method_exists($class, $method)) {
